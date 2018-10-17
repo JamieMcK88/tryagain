@@ -425,7 +425,7 @@ void draw(SDL_Window * window) {
 	mvStack.pop();
 
 
-
+	//test
 	// draw a cube for ground plane
 	glBindTexture(GL_TEXTURE_2D, textures[0]);
 	mvStack.push(mvStack.top());
